@@ -1,0 +1,28 @@
+---
+layout: page
+title: Le Blog
+tagline: 
+---
+{% include JB/setup %}
+
+<section class="blog" id="blog">
+	<div class="row">
+		<div class="span10 offset1">
+			<h2> The Blog <img src="assets/images/blog.png" /></h2>
+			<table class="table" >
+				<thead>
+				<th>date</th>
+				<th>post</th>
+				</thead>
+				<tbody>
+				{% for post in site.posts %}
+					<tr>
+					<td>{{ post.date | date_to_string }}</td>
+					<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+					</tr>
+				{% endfor %}
+			</tbody>
+			</table>
+		</div><!--end row-->
+</section>
+
