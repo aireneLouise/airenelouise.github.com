@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Le Blog
+tagline: 
 ---
 {% include JB/setup %}
 
@@ -13,8 +13,8 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 In `_config.yml` remember to specify your own data:
     
-    title : My Blog =)
-    
+    title : My Blog =p
+
     author :
       name : Name Lastname
       email : blah@email.test
@@ -22,6 +22,9 @@ In `_config.yml` remember to specify your own data:
       twitter : username
 
 The theme should reference these variables whenever needed.
+
+      hgdkgfdkfjg
+	
     
 ## Sample Posts
 
