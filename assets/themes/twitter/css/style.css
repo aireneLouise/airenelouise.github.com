@@ -68,4 +68,16 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+/*Posts Text*/
+
+.post{
+  text-align: center
+}
+
+
+/*Posts Table*/
+thead.post_table{
+  text-align: center
+}
 	
