@@ -2,6 +2,8 @@
   <h1>
     {% if page.title != 'Le Blog' %}
       {{ page.title }} 
+    {% else %}
+      Posts 
     {%endif%}
 
     {% if page.tagline %} 
